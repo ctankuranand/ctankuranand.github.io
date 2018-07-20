@@ -1,0 +1,46 @@
+.stage {
+    box-sizing: border-box;
+    width: 800px;
+    height: 600px;
+    padding-top: 495px;
+    margin: auto;
+    background-color:2985FF;
+    border-bottom: 5px solid mediumaquamarine;
+    
+    
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 20%;
+    margin: auto;
+    animation-name: ball-animation;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: top top;
+}
+
+@keyframes ball-animation {
+    0% {
+        background-color: aqua;
+        
+    }
+    
+    100% {
+        background-color: blue;
+        transform: translate(0,-300px) scale(2) rotate(120deg);
+        
+    }
+    
+    
+}
+a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: aqua;
+    text-decoration: none;
+}
+
