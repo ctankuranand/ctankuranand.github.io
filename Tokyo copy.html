@@ -18,9 +18,12 @@
     padding: 0;
     overflow: hidden;
     background-color: white;
-    position: center;
+    position: -webkit-sticky;
+    position: fixed;
+    align-self: center;
+    width: 100%;    
     top: 0;
-    border-bottom: black;
+   
 }
 
 li {
@@ -42,7 +45,7 @@ li a {
 
 .hero-image {
   background-image: url("https://images.alphacoders.com/861/861600.jpg");
-  height: 93%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,6 +60,9 @@ li a {
   transform: translate(-50%, -50%);
   color: #0176FF;
   text-shadow: 7px 7px aquamarine;
+}
+#navspacingleft {
+  padding-left: 268px;
 }
 
 
@@ -94,9 +100,7 @@ li a {
           padding-bottom: 100px;
           padding-top: -20px;
         }
-        #attractions {
-          text-align: center;
-        }
+        
         #whatistokyo {
           padding-top: 50px;
           
@@ -106,24 +110,8 @@ li a {
     box-sizing: border-box;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-
     </style>
    
-
     <body>
 
 <div class="hero-image">
@@ -136,21 +124,24 @@ li a {
 <div id = bodyexcepthero>
 
     <ul style = "font-family: Geneva;">
-  <li><a href= #home">Experiences</a></li>
-  <li><a href="#news">Hotels</a></li>
-  <li><a href="#contact">Restaurants</a></li>
-  <li><a href="#about">Maps</a></li>
-   <li><a href="#about">Articles</a></li>
+      <div id = navspacingleft>
+  <li><a href= "Tokyo copy.html">Home</a></li>
+</div>
+  <li><a href= "Attractions.html">Attractions</a></li>
+  <li><a href="Hotels.html">Hotels</a></li>
+  <li><a href="https://www.eater.com/maps/best-tokyo-restaurants">Restaurants</a></li>
+  <li><a href="https://www.google.com/maps/search/Tokyo,%20Japan">Maps</a></li>
+   <li><a href="#about">Gallery</a></li>
     <li><a href="#about">Books</a></li>
      <li><a href="#about">Activities</a></li>
       <li><a href="#about">In detail</a></li>
-       <li><a href="#about">Community</a></li>
+       <li><a href="hanime.html">Community</a></li>
 </ul>
 
     
      
    <br>
-<div id = Welcome>
+<div id = welcome>
   <h1 style="font-family: Geneva;font-size:200%">Welcome to Tokyo</h1>
 </div>
   <h1 style="font-family: Geneva;font-size:200%"> - </h1>
@@ -173,34 +164,7 @@ li a {
 
 <br>
 Today, Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. The city's history can be appreciated in districts such as Asakusa and in many excellent museums, historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city center and within relatively short train rides at its outskirts. </p>
-</div>
 
-<img src = "http://ultrawidewallpapers.com/wp-content/uploads/2017/05/streets-of-tokyo-3440x1440.jpg" width = "1420", height = "300">
-<div id = attractions>
-  <h1> What to do in Tokyo? </h1>
-
-</div>
-
-<div class="row">
-  <div class="column">
-    <img src="https://www.japan-guide.com/g18/3001_02.jpg" width = "275",height ="300">
-  </div>
-  <div class="column">
-    <img src="https://www.worldatlas.com/upload/a6/b0/ac/shutterstock-519032449.jpg" width = "226",height ="240">
-  </div>
-  <div class="column">
-    <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2015/03/innermarket.jpg" width = "226",height = "240">
-
-  </div>
-</div>
-
-<div id = "senso">
-    
-
-
-<div id = "shibuya">
-</div>   
-</div> 
     </body>
     
 </html>
